@@ -1,0 +1,70 @@
+com/example/todolist/sqlitesimpletodoapp/BuildConfig.java
+ com.example.todolist.sqlitesimpletodoapp.BuildConfig
+com/example/todolist/sqlitesimpletodoapp/models/TagsModel.java
+ com.example.todolist.sqlitesimpletodoapp.models.TagsModel
+com/example/todolist/sqlitesimpletodoapp/activities/AppSettings.java
+ com.example.todolist.sqlitesimpletodoapp.activities.AppSettings
+ com.example.todolist.sqlitesimpletodoapp.activities.AppSettings$AppPreference
+com/example/todolist/sqlitesimpletodoapp/helpers/DatabaseHelper.java
+ com.example.todolist.sqlitesimpletodoapp.helpers.DatabaseHelper
+com/example/todolist/sqlitesimpletodoapp/activities/AllTags.java
+ com.example.todolist.sqlitesimpletodoapp.activities.AllTags
+ com.example.todolist.sqlitesimpletodoapp.activities.AllTags$1
+ com.example.todolist.sqlitesimpletodoapp.activities.AllTags$2
+ com.example.todolist.sqlitesimpletodoapp.activities.AllTags$3
+com/example/todolist/sqlitesimpletodoapp/adapters/CompletedTodoAdapter.java
+ com.example.todolist.sqlitesimpletodoapp.adapters.CompletedTodoAdapter
+ com.example.todolist.sqlitesimpletodoapp.adapters.CompletedTodoAdapter$CompletedDataHolder
+com/example/todolist/sqlitesimpletodoapp/helpers/SettingsHelper.java
+ com.example.todolist.sqlitesimpletodoapp.helpers.SettingsHelper
+com/example/todolist/sqlitesimpletodoapp/adapters/TagAdapter.java
+ com.example.todolist.sqlitesimpletodoapp.adapters.TagAdapter
+ com.example.todolist.sqlitesimpletodoapp.adapters.TagAdapter$1
+ com.example.todolist.sqlitesimpletodoapp.adapters.TagAdapter$1$1
+ com.example.todolist.sqlitesimpletodoapp.adapters.TagAdapter$2
+ com.example.todolist.sqlitesimpletodoapp.adapters.TagAdapter$3
+ com.example.todolist.sqlitesimpletodoapp.adapters.TagAdapter$4
+ com.example.todolist.sqlitesimpletodoapp.adapters.TagAdapter$5
+ com.example.todolist.sqlitesimpletodoapp.adapters.TagAdapter$TagDataHolder
+com/example/todolist/sqlitesimpletodoapp/activities/CompletedTodos.java
+ com.example.todolist.sqlitesimpletodoapp.activities.CompletedTodos
+ com.example.todolist.sqlitesimpletodoapp.activities.CompletedTodos$1
+ com.example.todolist.sqlitesimpletodoapp.activities.CompletedTodos$2
+ com.example.todolist.sqlitesimpletodoapp.activities.CompletedTodos$3
+com/example/todolist/sqlitesimpletodoapp/helpers/TagDBHelper.java
+ com.example.todolist.sqlitesimpletodoapp.helpers.TagDBHelper
+com/example/todolist/sqlitesimpletodoapp/activities/MainActivity.java
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$1
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$2
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$3
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$4
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$5
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$5$1
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$6
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$6$1
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$7
+ com.example.todolist.sqlitesimpletodoapp.activities.MainActivity$8
+com/example/todolist/sqlitesimpletodoapp/helpers/TodoDBHelper.java
+ com.example.todolist.sqlitesimpletodoapp.helpers.TodoDBHelper
+com/example/todolist/sqlitesimpletodoapp/adapters/PendingTodoAdapter.java
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$1
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$1$1
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$10
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$11
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$2
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$3
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$4
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$5
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$6
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$6$1
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$7
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$7$1
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$8
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$9
+ com.example.todolist.sqlitesimpletodoapp.adapters.PendingTodoAdapter$PendingDataHolder
+com/example/todolist/sqlitesimpletodoapp/models/PendingTodoModel.java
+ com.example.todolist.sqlitesimpletodoapp.models.PendingTodoModel
+com/example/todolist/sqlitesimpletodoapp/models/CompletedTodoModel.java
+ com.example.todolist.sqlitesimpletodoapp.models.CompletedTodoModel

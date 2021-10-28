@@ -1,0 +1,4 @@
+#Tue Oct 12 16:27:55 EAT 2021
+base.0=E\:\\Programming\\oct\\Android\\sqlite-android-todo-app\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,1 @@
+SQLite Simple Todo App is a task manager app for daily tasks stored in sqlite.As a simple todo list it does almost all the basic staffs. This app is for the assignment 5 that was tasked to work on TODOlist using sqlite.

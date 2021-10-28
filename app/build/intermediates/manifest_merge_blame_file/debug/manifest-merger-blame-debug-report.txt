@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.todo.todolist.sqlitesimpletodoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@drawable/icon"
+14-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:7:9-38
+15        android:label="@string/app_name"
+15-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:10:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity
+20-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:12:9-20:20
+21            android:name="com.example.todolist.sqlitesimpletodoapp.activities.MainActivity"
+21-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:13:13-52
+22            android:label="@string/app_name" >
+22-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:14:13-45
+23            <intent-filter>
+23-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:15:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:16:17-69
+24-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:18:17-77
+26-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:21:9-23:69
+30            android:name="com.example.todolist.sqlitesimpletodoapp.activities.CompletedTodos"
+30-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:22:13-54
+31            android:parentActivityName="com.example.todolist.sqlitesimpletodoapp.activities.MainActivity" />
+31-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:23:13-66
+32        <activity
+32-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:24:9-26:69
+33            android:name="com.example.todolist.sqlitesimpletodoapp.activities.AllTags"
+33-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:25:13-47
+34            android:parentActivityName="com.example.todolist.sqlitesimpletodoapp.activities.MainActivity" />
+34-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:26:13-66
+35        <activity
+35-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:27:9-123
+36            android:name="com.example.todolist.sqlitesimpletodoapp.activities.AppSettings"
+36-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:27:19-57
+37            android:parentActivityName="com.example.todolist.sqlitesimpletodoapp.activities.MainActivity" />
+37-->E:\Programming\oct\Android\sqlite-android-todo-app\app\src\main\AndroidManifest.xml:27:58-111
+38
+39        <meta-data
+39-->[com.android.support:design:26.1.0] C:\Users\codenet_technologies\.gradle\caches\transforms-2\files-2.1\07688e07101d00b649f82aadad5058c3\design-26.1.0\AndroidManifest.xml:26:9-28:38
+40            android:name="android.support.VERSION"
+40-->[com.android.support:design:26.1.0] C:\Users\codenet_technologies\.gradle\caches\transforms-2\files-2.1\07688e07101d00b649f82aadad5058c3\design-26.1.0\AndroidManifest.xml:27:13-51
+41            android:value="26.1.0" />
+41-->[com.android.support:design:26.1.0] C:\Users\codenet_technologies\.gradle\caches\transforms-2\files-2.1\07688e07101d00b649f82aadad5058c3\design-26.1.0\AndroidManifest.xml:28:13-35
+42        <meta-data
+42-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\codenet_technologies\.gradle\caches\transforms-2\files-2.1\016519dd5dae03a0fb2149978231920e\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+43            android:name="android.arch.lifecycle.VERSION"
+43-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\codenet_technologies\.gradle\caches\transforms-2\files-2.1\016519dd5dae03a0fb2149978231920e\runtime-1.0.0\AndroidManifest.xml:26:13-58
+44            android:value="27.0.0-SNAPSHOT" />
+44-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\codenet_technologies\.gradle\caches\transforms-2\files-2.1\016519dd5dae03a0fb2149978231920e\runtime-1.0.0\AndroidManifest.xml:27:13-44
+45    </application>
+46
+47</manifest>
